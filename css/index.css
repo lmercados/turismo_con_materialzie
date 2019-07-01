@@ -1,0 +1,73 @@
+.barra-central{
+  min-height:25rem;
+
+}
+
+body{
+
+  background-image: url("../img/bahia_aguilas_fondo.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-attachment: fixed;
+}
+
+
+h4
+{
+
+font-family: 'Crimson Text', serif;
+}
+
+.logo
+{
+   width: 150px;
+
+}
+
+.image{
+  float: left;
+}
+.margin
+{
+  margin-left: 2px;
+}
+
+.responsive-img-4{
+  border: 0.6rem solid #4dd0e1;
+  border-radius: 5px;
+  width: 400px !important;
+  height:250px !important;
+}
+.responsive-img-5{
+  border: 0.6rem solid #4dd0e1;
+  border-radius: 5px;
+  width: 400px !important;
+  height:800px !important;
+}
+.responsive-img-6{
+  border: 0.6rem solid #4dd0e1;
+  border-radius: 5px;
+  width: 400px !important;
+  height:250px !important;
+}
+
+
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+  .responsive-img-2
+  {
+     width: 50px;
+  }
+  .comentario
+  {
+
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .image{
+    float:none;
+    display: flex;
+    justify-content: center;
+  }
